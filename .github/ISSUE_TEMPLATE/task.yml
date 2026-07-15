@@ -1,0 +1,33 @@
+name: Task
+description: Track an actionable Secure Watch task
+title: "[Task]: "
+body:
+  - type: textarea
+    id: objective
+    attributes:
+      label: Objective / 목적
+      description: What needs to be done and why? / 무엇을 왜 해야 하나요?
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope
+    attributes:
+      label: Scope / 범위
+      description: Describe what is included and excluded. / 포함·제외 범위를 작성해 주세요.
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria / 완료 조건
+      description: How will we know this task is complete? / 완료 여부를 어떻게 확인하나요?
+    validations:
+      required: true
+
+  - type: input
+    id: related
+    attributes:
+      label: Related discussion or issue / 관련 Discussion 또는 Issue
+      placeholder: https://github.com/...
