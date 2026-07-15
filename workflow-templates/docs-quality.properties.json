@@ -1,0 +1,11 @@
+{
+  "name": "Documentation quality",
+  "description": "Lint Markdown and check documentation links.",
+  "iconName": "octicon book",
+  "categories": [
+    "Documentation"
+  ],
+  "filePatterns": [
+    ".*\\.md$"
+  ]
+}
