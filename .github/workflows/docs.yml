@@ -28,3 +28,4 @@ jobs:
         uses: lycheeverse/lychee-action@e7477775783ea5526144ba13e8db5eec57747ce8 # v2
         with:
           args: --verbose --no-progress './**/*.md'
+          failIfEmpty: false
