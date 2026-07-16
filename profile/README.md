@@ -4,7 +4,7 @@
 
 <br/>
 
-**Secure Watch**
+<h1>Secure Watch</h1>
 
 Java 프로젝트의 의존성 보안 변화를 기준선과 비교해 추적·보고하는 오픈소스 도구
 
@@ -21,4 +21,3 @@ An open-source tool for tracking and reporting security changes in Java project 
 ![Status](https://img.shields.io/badge/Status-Early%20development-4a90e2?style=flat-square)
 
 </div>
-.
