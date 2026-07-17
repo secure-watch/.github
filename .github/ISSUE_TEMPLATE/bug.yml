@@ -33,9 +33,8 @@ body:
   - type: input
     id: environment
     attributes:
-      label: Environment / 환경
-      description: Include JDK, build tool, OS, and Secure Watch version.
-      placeholder: JDK 21, Gradle 8.x, Ubuntu 24.04, Secure Watch 0.x
+      label: Environment or context / 환경 또는 맥락
+      description: Include only the repository, OS, tools, and versions relevant to reproduction. / 재현에 필요한 저장소, OS, 도구와 버전만 작성해 주세요.
     validations:
       required: true
 
