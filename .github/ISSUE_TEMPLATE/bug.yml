@@ -10,42 +10,42 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Problem / 문제
-      description: What happened? / 어떤 문제가 발생했나요?
+      label: Problem
+      description: What happened?
     validations:
       required: true
 
   - type: textarea
     id: reproduction
     attributes:
-      label: Reproduction steps / 재현 절차
-      description: Provide the smallest reproducible example. / 최소 재현 예제를 작성해 주세요.
+      label: Reproduction steps
+      description: Provide the smallest reproducible example.
     validations:
       required: true
 
   - type: textarea
     id: expected
     attributes:
-      label: Expected and actual results / 기대 결과와 실제 결과
+      label: Expected and actual results
     validations:
       required: true
 
   - type: input
     id: environment
     attributes:
-      label: Environment or context / 환경 또는 맥락
-      description: Include only the repository, OS, tools, and versions relevant to reproduction. / 재현에 필요한 저장소, OS, 도구와 버전만 작성해 주세요.
+      label: Environment or context
+      description: Include only the repository, OS, tools, and versions relevant to reproduction.
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: Logs / 로그
+      label: Logs
       description: Include relevant logs after removing sensitive information.
       render: shell
 
   - type: textarea
     id: additional
     attributes:
-      label: Additional context / 추가 정보
+      label: Additional context

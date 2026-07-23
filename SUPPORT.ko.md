@@ -1,0 +1,13 @@
+# 지원
+
+[English](SUPPORT.md)
+
+| 요청 유형 | 채널 |
+| --- | --- |
+| 사용 방법과 일반 질문 | GitHub Discussions |
+| 기능 제안과 설계 논의 | GitHub Discussions |
+| 재현 가능한 버그 | GitHub Issues |
+| 보안 취약점 | 비공개 취약점 신고 |
+
+질문에는 사용한 버전, 실행 환경, 명령, 기대 결과와 실제 결과를 포함합니다. token,
+내부 URL, package registry 자격 증명 등 민감한 정보는 제거합니다.
